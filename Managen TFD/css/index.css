@@ -1,0 +1,84 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(54, 53, 53)
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(20, 20, 20);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85);
+      border-radius: 3px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+h1 {
+    font-size: 50px; 
+    font-style: normal; 
+    font-variant: normal; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 50%;
+}
+#header {
+    height: 50px;
+    background-color: rgb(204, 204, 204);
+    color: white;
+    display: flex;
+    padding: 10px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+#entrar{
+    justify-self: flex-start;
+    margin-right: auto;
+    width: 130px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#entrar:hover{
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#explain {
+    line-height: 70px;
+    font-size: 20px;  
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 95%;
+    margin-top: 1.7%;
+}
